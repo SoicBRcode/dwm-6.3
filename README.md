@@ -1,4 +1,4 @@
-My fork of dwm
+My fork of dwm.
 
 ```
 dwm - dynamic window manager
@@ -65,9 +65,4 @@ All the patches I applied.
 
 Note: I didn't *only* apply these patches, I made some small tweaks to the
 code too.
-
-# License
-
-License for dwm is on LICENSE. License for my modified code is on LICENSE.md.
-
 
