@@ -54,8 +54,8 @@ and (re)compiling the source code.
 
 # Patch list
 
-All the patches I applied.
-
+All the patches I applied:
+* alpha;
 * actualfullscreen;
 * autostart;
 * alwayscenter;

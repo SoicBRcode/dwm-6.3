@@ -13,9 +13,15 @@ static const char col_norm_border[] = "#2e3440";
 static const char col_sel_fg[]      = "#eceff4";
 static const char col_sel_bg[]      = "#2e3440";
 static const char col_sel_border[]  = "#88c0d0";
+static const unsigned int baralpha = 0xdf;
+static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3]      = {
 	[SchemeNorm] = { col_norm_fg, col_norm_bg, col_norm_border },
 	[SchemeSel]  = { col_sel_fg, col_sel_bg,  col_sel_border },
+};
+static const unsigned int alphas[][3] = {
+    [SchemeNorm] = { OPAQUE, baralpha, borderalpha},
+    [SchemeSel]  = { OPAQUE, baralpha, borderalpha},
 };
 static const unsigned int gappx     = 10; /* gap pixel between windows */
 
